@@ -7,9 +7,9 @@ import pgpText from 'raw-loader!./pgp.txt';
 import headerHTML from 'raw-loader!./header.html';
 let styleText = [0, 1, 2, 3].map((i) => require('raw-loader!./styles' + i + '.css').default);
 import preStyles from 'raw-loader!./prestyles.css';
-import replaceURLs from '../lib/replaceURLs';
-import {default as writeChar, writeSimpleChar, handleChar} from '../lib/writeChar';
-import getPrefix from '../lib/getPrefix';
+import replaceURLs from './lib/replaceURLs';
+import {default as writeChar, writeSimpleChar, handleChar} from './lib/writeChar';
+import getPrefix from './lib/getPrefix';
 
 // Vars that will help us get er done
 const isDev = window.location.hostname === 'localhost';

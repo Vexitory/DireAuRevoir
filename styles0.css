@@ -12,7 +12,7 @@
  * Let's begin. We start by animating... well, everything.
  */
 
-* {
+ * {
   -webkit-transition: all 1s;
 }
 
